@@ -6,24 +6,44 @@ body {
     width: 100%;
 }
 
-
-.container {
-    padding: 80px;   
-    display:flex;
+section {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 .foto {
-    width: 350px;
+    width: 380px;
     border-radius: 50%;
-    height: 350px;
+    height: 380px;
 }
 
-header{
-    display:flex;
+footer {
+    display: flex;
     flex-direction: column;
-    align-content: center;
     justify-content: center;
-    width: 100%;
+    align-items: center;
+    padding: 20px;
+
 }
 
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.h4 {
+    margin-top: -10px;
+}
