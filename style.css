@@ -1,0 +1,29 @@
+body {
+    overflow-x: hidden;
+    padding:0;
+    margin: 0;
+    background-color: rgb(189, 189, 189);
+    width: 100%;
+}
+
+
+.container {
+    padding: 80px;   
+    display:flex;
+    flex-direction: column;
+}
+
+.foto {
+    width: 350px;
+    border-radius: 50%;
+    height: 350px;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
